@@ -25,6 +25,7 @@ export class index extends Component {
                 languages={languages}
                 changeLang={this.changeLang}
             />
+            
         )
     }
 }

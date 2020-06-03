@@ -4,6 +4,7 @@ import Content from './components/content/Content';
 import { Provider } from 'react-redux';
 import { store, persister } from './redux/store';
 import { PersistGate } from 'redux-persist/es/integration/react';
+import Footer from './components/footer/Footer';
 class App extends Component {
   render(){
   return (
@@ -12,6 +13,7 @@ class App extends Component {
         <Fragment>
           <Navbar />
           <Content />
+          <Footer/>
         </Fragment>
       </PersistGate>
     
