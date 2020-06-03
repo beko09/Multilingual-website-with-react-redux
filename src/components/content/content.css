@@ -4,7 +4,7 @@
     width: 40%;
 }
 @media (max-width: 920px) {
-    h1,h2,h3,h4,p{font-size:15px}
+    h1,h2,h3,h4,p{font-size:10px}
 }
 h1{
     font-size: 40px;
