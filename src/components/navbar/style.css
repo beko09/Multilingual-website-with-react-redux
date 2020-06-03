@@ -1,0 +1,22 @@
+header{
+    height: 60px;
+    background: #fff;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    background: #efefef;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}

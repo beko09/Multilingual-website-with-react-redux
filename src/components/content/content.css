@@ -1,0 +1,15 @@
+.content{
+    font-family: 'Cairo', sans-serif;
+    padding: 50px 100px;
+    width: 40%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+        font-size: 20px;
+}
+h1,p{
+    font-family: 'Cairo', sans-serif;
+}
