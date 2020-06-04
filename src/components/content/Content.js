@@ -4,6 +4,7 @@ import './content.css';
 import { selectLanguage } from "../../redux/action/languages";
 class Content extends Component {
     render() {
+
         const {
           title,
           content,
@@ -35,7 +36,7 @@ class Content extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    languages: state.Languages.languages,
+    languages: state.Languages,
 });
 
 export default connect(mapStateToProps, {

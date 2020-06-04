@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { selectLanguage } from "../../redux/action/languages";
+import { selectLanguage, defaultLang} from "../../redux/action/languages";
 import { connect } from 'react-redux';
 import Navbar from './components/Navbar';
 import { languages } from '../languages/languages';
@@ -17,7 +17,8 @@ export class index extends Component {
             this.direction(dir,lang)
     };
     componentDidMount() {
-        this.direction(this.props.dir,this.props.lang)
+        this.direction(this.props.dir,this.props.lang);
+        this.props.defaultLang()
     }
     render() {
         return (
@@ -38,4 +39,5 @@ const mapStateToProps = (state) => ({
 
 export default connect(mapStateToProps, {
     selectLanguage,
+    defaultLang,
 })(index);
